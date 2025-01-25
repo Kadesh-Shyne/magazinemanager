@@ -1,0 +1,82 @@
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+ /* CSS for increasing input width */
+ input[type="text"],
+ textarea{
+     width: 985px; /* You can adjust the width as needed */
+     /* Add any other styling you need */
+     margin-bottom: 20px;
+ }
+ 
+ select{
+     width: 1000px;
+     margin-bottom: 50px;
+     height: 35px;
+ }
+ input[type="url"]{
+     width: 995px;
+     margin-bottom: 20px;
+     margin-top: 10px; 
+   
+ }
+
+ input[type="submit"]{
+     width: 978px;
+     margin-bottom: 20px;
+     background-color: #4CAF50;
+color: white;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+ }
+
+
+ input[type="date"]{
+     width: 990px;
+     margin-bottom: 20px;
+ }
+
+ #products, #language{
+    width: 973px;
+    border-radius: 5px;
+ }
+
+
+#contentText, #contentName, #contentDescription, #contentURL1,#contentURL2,#contentURL3,#contentURL4,#contentURL5,#contentURL6,#contentURL7,#contentURL8,#contentURL9{
+    width: 970px;
+    border-radius: 5px; 
+ }
+
+#thumbnail,  #contentImage1, #contentImage2, #contentImage3{
+    width: 970px;
+    border-radius: 5px;
+ }
+
+
+ #views, #comments, #downloads  {
+    width: 1000px;  /* Adjust the width as needed */
+    height: 25px;  /* Adjust the height as needed */
+    font-size: 16px; /* Adjust the font size as needed */
+    padding: 10px; /* Add padding for better spacing */
+    box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
+    border-radius: 5px;
+}
+
+
+#content_date{
+    width: 973px;
+    border-radius: 5px;
+}
+
+ input[type="submit"]:hover {
+background-color: #45a049;
+}
+
+
+.url-input {
+    width: 100%; /* Adjust this value as needed */
+}
